@@ -1,13 +1,24 @@
-# self-serve-py-pkg
+# plage
 
-[Click here to generate a new repo from this self-serve template](https://github.com/lmmx/self-serve-py-pkg/generate)
+[![Documentation](https://readthedocs.org/projects/plage/badge/?version=latest)](https://plage.readthedocs.io/en/latest/)
+[![CI Status](https://github.com/lmmx/plage/actions/workflows/master.yml/badge.svg)](https://github.com/lmmx/plage/actions/workflows/master.yml)
+[![Coverage](https://codecov.io/gh/lmmx/plage/branch/master/graph/badge.svg)](https://codecov.io/github/lmmx/plage)
+[![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-- Demo of the repo this generates: [lmmx/self-serve-demo](https://github.com/self-serve-repo)
+Paved path refactor engine
 
-- Blog:
-  [Generating Cookiecutter templates from a GitHub template repo](https://pore.spin.systems/package-templating-self-service-repo)
+[Read The Docs](https://plage.readthedocs.io/en/latest/)
 
-> Important note: contains some hard-coded values (GitHub username of the target repo in particular)
-> to ensure that my GitLab CI account is only used to overwrite repos on my GitHub account, with a
-> confidential SSH key. Please follow the instructions in the attached blog to set it up for
-> yourself.
+## Requires
+
+- Python 3.10+
+
+## Installation
+
+```sh
+pip install plage
+```
+
+> _plage_ is available from [PyPI](https://pypi.org/project/plage), and
+> the code is on [GitHub](https://github.com/lmmx/plage)
